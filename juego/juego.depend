@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1663057919 source:d:\.vscode\juego\src\mapcell.cpp
+	"MapCell.h"
+
+1663057919 d:\.vscode\juego\include\mapcell.h
+
+1663058080 source:d:\.vscode\juego\src\enemy.cpp
+	"Enemy.h"
+
+1663059557 d:\.vscode\juego\include\enemy.h
+
+1663059456 source:d:\.vscode\juego\src\gamemap.cpp
+	"GameMap.h"
+	<iostream>
+	<fstream>
+
+1663059557 d:\.vscode\juego\include\gamemap.h
+	"MapCell.h"
+	"Enemy.h"
+
+1663059170 source:d:\.vscode\juego\src\player.cpp
+	"Player.h"
+	<iostream>
+
+1663059265 d:\.vscode\juego\include\player.h
+
+1663059484 source:d:\.vscode\juego\main.cpp
+	<iostream>
+	"Player.h"
+	"MapCell.h"
+	"GameMap.h"
+
